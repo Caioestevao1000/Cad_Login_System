@@ -1,0 +1,3 @@
+<?php
+//Inclui rota para 
+?>
