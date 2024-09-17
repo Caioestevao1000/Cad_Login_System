@@ -13,7 +13,7 @@ $dashboardController = new DashboardController(); //Instancia controlador de das
 // Coleta a ação de URL, se nçao houver ação definida, usa 'login' como padrão
 $action = $_GET['action'] ?? 'login'; //Usa operador de coalescência nula (??) para definir 'login' ou  'action' não estiver presente
 
-switch($actio){
+switch($action){
     case 'login':
         $AuthController->login();//chama o método de login do controlador de autenticação
 }
