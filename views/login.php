@@ -22,7 +22,7 @@
             <button type="submit">Login</button>
 
         </form>
-        <a href="">Cadastra-se</a>
+        <a href="register.php">Cadastra-se</a>
     </main>
 </body>
 </html>

@@ -23,5 +23,3 @@ class Database {
 }
 
 ?>
-
-criação da database.php, class para configuração e conexão com o DB

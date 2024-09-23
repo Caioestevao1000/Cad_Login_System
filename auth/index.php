@@ -1,3 +1,6 @@
 <?php
-//Inclui rota para 
+
+// Inclui arquivo de rotas
+require "routes.php";
+
 ?>
