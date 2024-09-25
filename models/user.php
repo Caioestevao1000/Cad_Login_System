@@ -28,7 +28,7 @@ class User {
         //Executa
         $stmt->execute(['id' => $id]);
 
-        return $stmt->fetch(PDO::FETCH_ASSOC)
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
     //Função para criar o usuário na BD

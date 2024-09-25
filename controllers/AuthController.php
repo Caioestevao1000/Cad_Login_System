@@ -1,4 +1,4 @@
-<?php
+<?php   
 
 // Requer o arquivo user que contém o model user com as funções de manipulação de dados de usuários
 require_once 'models/user.php';
@@ -18,14 +18,18 @@ class AuthController
             $user = User::findByEmail($email);
 
             if($user && password_verify($senha, $user['senha'])){// Verifica se a senha corresponde a um hash
-                session_start();// Armazenamento na sessão o ID do usuário que está logado e seu perfil
+                session_start();    // Armazenamento na sessão o ID do usuário que está logado e seu perfil
                 $_SESSION['usuario_id'] = $user['id'];
-                $_SESSION['perfil'] = $user['perfil'];
-                header('');
+                $_SESSION['perfil']     = $user['perfil'];
+
+                header('Location: index.php?action=dashboard');
+            }else{
+                echo "email do ou senha incorretos";
             }
 
-
-        }
+          }else{
+            include 'views/login.php';
+          }
     }
 }
 

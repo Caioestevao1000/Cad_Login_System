@@ -13,7 +13,7 @@ class UserController {
                 
                 //Chama o método create do model User para ciar o novo usuário no DB
                 User::create($data);
-                header('Loacation: index.php')
+                header('Loacation: index.php');
 
         } else{
             include 'views/register.php';
