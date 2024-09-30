@@ -26,6 +26,3 @@ Acesse o arquivo index.php para iniciar o sistema de login.
 Implementar um banco de dados MySQL para armazenar os dados de login e cadastro de usuários.
 Adicionar validações mais robustas para os campos de login e senha.
 Incluir uma funcionalidade de recuperação de senha.
-
-## Autor
-    Nome do Autor - github.com/seuperfil
