@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div>
-        <h2>Cdastro de Usuário</h2>
+        <h2>Cadastro de Usuário</h2>
         <form action="index.php?action=register" method="post">
             <label for="">Nome</label>
-            <input type="text" name="nome" id="nome" required>
+            <input type="text" name="nome" id="nome" placeholder="joãozinho" required>
         
             <label for="">Email</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required>
         
             <label for="">Senha</label>
-            <input type="password" name="senha" id="senha" required>
+            <input type="password" name="senha" id="senha" placeholder="&x3MpL0@@D3@@S3nHa@@S3gu9a!" required>
         
             <label for="">Perfil:</label>
             <select name="perfil" id="perfil">
@@ -26,6 +27,7 @@
                 <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
+            <br>
             <button type="submit">Cadastrar</button>
         </form>
         <a href="index.php?action=login">Voltar ao Login</a>
