@@ -41,12 +41,20 @@ div {
 label {/*
     text-align: right;
     display: flex;
-    padding-left: 50px;
     margin-top: 20px;*/
 
     margin-bottom: 5px; 
     text-align: left; 
     font-size: 1em;
+}
+
+.id {
+    padding-right: 200px;
+}
+
+select#perfil {
+    width: 100px;
+    height: 30px;
 }
 
 input {

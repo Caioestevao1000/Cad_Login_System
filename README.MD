@@ -9,8 +9,16 @@ O projeto tem um sistema de login onde o usuário pode inserir suas informaçõe
  - Formulário de Cadastro: Permite o usuário se cadastrar no sistema. desde que não tenha cadastro.
  - Verificação de Credenciais: O sistema envia os dados do formulário para um arquivo PHP que trata a autenticação.
 
+### Usuários
+- Admin
+- Gestor
+- Colaborador
+
+
+
+
 ## 🖥Tecnologias Utilizadas
-✅ HTML5: Para a estrutura básica do site.
-✅ CSS3: Para o design e layout do formulário.
-✅ PHP: Para o backend e gerenciamento das credenciais de login.
-✅ MySQL: Para o armazenamento de informações dos usuários.
+✅ HTML5: Para a estrutura básica do site.  
+✅ CSS3: Para o design e layout do formulário.  
+✅ PHP: Para o backend e gerenciamento das credenciais de login.  
+✅ MySQL: Para o armazenamento de informações dos usuários.  

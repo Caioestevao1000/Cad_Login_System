@@ -12,16 +12,16 @@
     <div>
         <h2>Cadastro de Usuário</h2>
         <form action="index.php?action=register" method="post">
-            <label for="">Nome</label>
+            <label for="" class="id">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="joãozinho" required>
         
-            <label for="">Email</label>
+            <label for="" class="id">Email</label>
             <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" required>
         
-            <label for="">Senha</label>
+            <label for="" class="id">Senha</label>
             <input type="password" name="senha" id="senha" placeholder="&x3MpL0@@D3@@S3nHa@@S3gu9a!" required>
         
-            <label for="">Perfil:</label>
+            <label for="" >Perfil:</label>
             <select name="perfil" id="perfil">
                 <option value="admin">Admin</option>
                 <option value="gestor">Gestor</option>
