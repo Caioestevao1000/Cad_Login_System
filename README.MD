@@ -5,6 +5,7 @@ Sistema de Login desenvolvido para estudo e prática na máteria de Programaçã
 O projeto tem um sistema de login onde o usuário pode inserir suas informações (e-mail e senha) para acessar o sistema. Também há uma opção para o usuário se cadastrar caso não possua uma conta.
 
 ## 🛠️Funcionalidades
+### Registro
  - Formulário de Login: Permite que o usuário faça login no sistema, desde que já possua cadastro.
  - Formulário de Cadastro: Permite o usuário se cadastrar no sistema. desde que não tenha cadastro.
  - Verificação de Credenciais: O sistema envia os dados do formulário para um arquivo PHP que trata a autenticação.
@@ -14,7 +15,11 @@ O projeto tem um sistema de login onde o usuário pode inserir suas informaçõe
 - Gestor
 - Colaborador
 
+### Controllers
 
+### Dashboard
+
+### Routes
 
 
 ## 🖥Tecnologias Utilizadas
