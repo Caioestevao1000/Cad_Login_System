@@ -24,11 +24,11 @@
 
 </style>
  
-<body class="<?php $_SESSION['perfil']?>"> <!-- Define a classe com base no perfil -->
+<body class="<?= $_SESSION['perfil']?>"> <!-- Define a classe com base no perfil -->
     <div class="container">
-        <h1>Bem-vindo, <?php $_SESSION['perfil']?>!</h1>
+        <h1>Bem-vindo, <?= $_SESSION['perfil']?>!</h1>
 
-        <p>Esta é a visão do perfil <?php $_SESSION['perfil']?>.</p>
+        <p>Esta é a visão do perfil <?= $_SESSION['perfil']?>.</p>
 
         <?php if($_SESSION['perfil'] == 'admin'): ?>
             <!-- Admin pode gerenciar usuários (editar e excluir) -->

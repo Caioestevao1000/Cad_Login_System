@@ -20,6 +20,9 @@ switch($action){ //construção do padrão do switch
     case 'register': //Verificar se tem algum ação e caso não tiver continuar 
         $userController->register();
         break;
+    case 'dashboard':
+        $dashboardController->index();
+        break;
     case 'logout':
         $authController->logout();
         break;
