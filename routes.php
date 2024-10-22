@@ -18,16 +18,19 @@ switch($action){ //construção do padrão do switch
         $AuthController->login();//chama o método de login do controlador de autenticação
         break;
     case 'register': //Verificar se tem algum ação e caso não tiver continuar 
-        $userController->register();
+        $UserController->register();
         break;
     case 'dashboard':
-        $dashboardController->index();
+        $DashboardController->index();
         break;
     case 'logout':
-        $authController->logout();
+        $AuthController->logout();
+        break;
+    case 'list':
+        $UserController->list();
         break;
     default:
-        $authController->login();
+        $AuthController->login();
         break;
 
 }

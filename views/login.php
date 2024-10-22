@@ -15,11 +15,8 @@
                 <label for="email" class="id">Email</label>
                 <input type="email" name="email" placeholder="exemplo@exemplo.com" required>
             
-            
-            
                 <label for="password" class="id">Senha</label>
                 <input type="password" name="senha" placeholder="&x3MpL0@@D3@@S3nHa@@S3gu9a!" required>
-            
 
             <button type="submit">Login</button>
         </form>

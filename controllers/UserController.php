@@ -19,6 +19,12 @@ class UserController {
             include 'views/register.php';
         }
     }
+
+    //Função para listar todos os Usuários
+    public function list(){// funcção que cria a variaveul users
+        $users = User::all();//aqui traz as informações do SELECT lá
+        include 'views/list_users.php';
+    }
 }
 
 ?>
